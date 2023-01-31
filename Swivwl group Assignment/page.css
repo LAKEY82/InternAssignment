@@ -1,0 +1,241 @@
+.wrap{
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    font-size:  60px; ;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+.sec1{
+    background-color: #37333D;
+    height: 630px;
+}
+
+.topic{
+    text-align: center;
+    padding-top:20px ;
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+}
+
+.para{
+    text-align: center;
+    padding: 5px 80px;  
+    font-size: 28px;
+    font-family: 'Lato', sans-serif; 
+}
+.btn1{
+    background-color:#37333D ;
+    color: white;
+    height: 48px;
+    width: 185px;
+    font-size: 19px;
+    text-align: center;
+    margin-left: 45%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.sec3{
+    width: 100%;
+    height: 100vh;
+    padding-top: 30px;
+    font-family: 'Lato', sans-serif;
+}
+.sec3 .cards img{
+    height: auto;
+    width: 380px;
+
+}
+.text{
+    width: 550px;
+    font-size: 30px;
+}
+
+.text p{
+    padding-top: 0;
+    padding-left: 0;
+    font-size: 20px;
+}
+
+.cards{
+    /* width: 50px; */
+    margin-top: 50px; 
+    margin-left: 20%;
+    padding-left: 7%;
+    display: flex;
+    margin-right: 0;
+    /* flex-wrap: wrap; */
+    margin-bottom: 80px;
+    justify-content: space-around; 
+
+}
+
+.cards img{
+    padding-top:60px ;
+}
+
+.text{
+    margin-left: 25px;
+    margin-right: 400px;
+    margin-top: 0;
+}
+
+.learn{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.sec3 .cards img{
+    height: 200px;
+    width: 200px;
+}
+
+.image-banner{
+    height: 100px;
+  width: 1000px;
+  display: block;
+  margin-left: 410px;
+  margin-right: 300px;
+  width: 200px;
+}
+
+.lower-cards{
+    padding-top: 250px;
+    margin-top: 50px; 
+    margin-left: 405px;
+    padding-bottom: 50px;
+    max-width: 3500px;
+    display: flex;
+    margin-right: 0;
+    /* flex-wrap: wrap; */
+    margin-bottom: 80px;
+    /* justify-content: space-around;  */
+}
+
+.learn1{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Responsive*/
+
+@media screen and (max-width:941px){
+    .wrap{
+        width: 100%;
+        font-size: 25px;
+        padding-top: 35px;
+    }
+
+    .sec1{
+        height: 260px;
+    }
+
+    .topic{
+        font-size: 30px;
+    }
+    .para{
+        font-size: 18px;
+        padding: 5px 25px; 
+    }
+
+    .btn1{
+        text-align: center;
+        margin-left: 20%;
+    }
+
+    .cards{
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       flex-wrap: wrap;
+       margin-top: 60px;
+       margin-left: 1px;
+    }
+
+    .text{
+        font-size: 20px;
+        margin-left: 290px;
+        padding-right: 0;
+        max-width: 350px;
+    }
+
+    .text p{
+        font-size: 15px;
+    }
+
+    .text .learn{
+        font-size: 13px;
+    }
+
+    .image-banner{
+      padding-left: 0;
+    }
+
+    .image-banner{
+       width: 25%;
+       height: 5%;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       
+       padding-top: 160px;
+       margin-left: 40px;
+       
+    }
+
+    .lower-cards{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        padding-bottom: 20px;
+        margin-left: 1px;
+    }
+
+    .learn1{
+        padding-bottom: 10px;
+    }
+}
+    
